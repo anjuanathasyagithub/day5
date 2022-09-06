@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEMO</title>
+</head>
+<body>
+    <h1 id="sam">Query Selector</h1>
+    <h2 class="demo">Demo Program</h2>
+    <h2 class="demo">Demo Program</h2>
+    <h2 class="demo">Demo Program</h2>
+    <p>Hi..Hello..Welcome..</p>
+    <p>Today's first demo</p>
+    <p>Try this</p>
+    <script>
+        document.querySelector('#sam').style.color="red";
+        document.querySelectorAll('.demo')[1].style.textAlign="center";
+        document.querySelectorAll('p')[0].style.fontSize="35px";
+        document.querySelectorAll('p')[2].style.backgroundColor="skyblue";
+    </script>
+</body>
+</html>
